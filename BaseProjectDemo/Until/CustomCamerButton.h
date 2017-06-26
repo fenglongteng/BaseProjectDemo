@@ -9,6 +9,7 @@
 #import <UIKit/UIKit.h>
 
 typedef void (^PickerSeletedImageBlock)(UIImage*);
+
 @interface CustomCamerButton : UIButton<UINavigationControllerDelegate, UIImagePickerControllerDelegate>
 #pragma mark xib是使用
 
